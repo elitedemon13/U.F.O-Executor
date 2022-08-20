@@ -1,0 +1,99 @@
+---Welcome to my special Gui
+---This Gui is a combination of some of your favorite scripts
+---This Gui is made the developers of VPX (Vaper X)
+---Enjoy this gui
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local darkhub = Instance.new("TextButton")
+local owlhub = Instance.new("TextButton")
+local vghub = Instance.new("TextButton")
+local jailbreakautorob = Instance.new("TextButton")
+local infiniteyeild = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+main.Position = UDim2.new(0.129781425, 0, 0.382045925, 0)
+main.Size = UDim2.new(0, 484, 0, 240)
+main.Active = true
+main.Draggable = true
+
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+TextLabel.Size = UDim2.new(0, 484, 0, 28)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "BabyyoumoonGui V1"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+darkhub.Name = "darkhub"
+darkhub.Parent = main
+darkhub.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+darkhub.Position = UDim2.new(0, 0, 0.166666687, 0)
+darkhub.Size = UDim2.new(0, 95, 0, 33)
+darkhub.Font = Enum.Font.SourceSans
+darkhub.Text = "DarkHub"
+darkhub.TextColor3 = Color3.fromRGB(255, 255, 255)
+darkhub.TextSize = 14.000
+darkhub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+end)
+
+owlhub.Name = "owlhub"
+owlhub.Parent = darkhub
+owlhub.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+owlhub.Position = UDim2.new(2.34245324, 0, -0.0151516199, 0)
+owlhub.Size = UDim2.new(0, 95, 0, 33)
+owlhub.Font = Enum.Font.SourceSans
+owlhub.Text = "OWL HUB"
+owlhub.TextColor3 = Color3.fromRGB(255, 255, 255)
+owlhub.TextSize = 14.000
+owlhub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
+end)
+
+vghub.Name = "vghub"
+vghub.Parent = darkhub
+vghub.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+vghub.Position = UDim2.new(1.18455851, 0, -0.0151516199, 0)
+vghub.Size = UDim2.new(0, 95, 0, 33)
+vghub.Font = Enum.Font.SourceSans
+vghub.Text = "VG Hub"
+vghub.TextColor3 = Color3.fromRGB(255, 255, 255)
+vghub.TextSize = 14.000
+vghub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+
+end)
+
+jailbreakautorob.Name = "jailbreakautorob"
+jailbreakautorob.Parent = main
+jailbreakautorob.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+jailbreakautorob.Position = UDim2.new(0.716942132, 0, 0.166666672, 0)
+jailbreakautorob.Size = UDim2.new(0, 95, 0, 33)
+jailbreakautorob.Font = Enum.Font.SourceSans
+jailbreakautorob.Text = "Jailbreak AutoRob"
+jailbreakautorob.TextColor3 = Color3.fromRGB(255, 255, 255)
+jailbreakautorob.TextSize = 14.000
+jailbreakautorob.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))();
+end)
+
+infiniteyeild.Name = "infiniteyeild"
+infiniteyeild.Parent = main
+infiniteyeild.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+infiniteyeild.Position = UDim2.new(0, 0, 0.375, 0)
+infiniteyeild.Size = UDim2.new(0, 95, 0, 33)
+infiniteyeild.Font = Enum.Font.SourceSans
+infiniteyeild.Text = "Infinite Yeild"
+infiniteyeild.TextColor3 = Color3.fromRGB(255, 255, 255)
+infiniteyeild.TextSize = 14.000
+infiniteyeild.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
